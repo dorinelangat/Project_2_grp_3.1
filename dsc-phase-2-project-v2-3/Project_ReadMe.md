@@ -21,6 +21,10 @@ The real estate agency helps homeowners buy and/or sell homes. One of the key se
 
 The real estate agency needs to provide accurate advice to homeowners about how home renovations can increase the estimated value of their homes, and by what amount. However, the agency currently lacks a reliable method for predicting the impact of specific home renovations on home value. As a result, the agency is unable to provide accurate advice to homeowners about the potential return on investment for different renovation projects.
 
+<b>Metric of Success</b>
+
+We decided to opt for RMSE as our metric of success because it is measured in the same units as the response variable.
+
 The <b>project objectives</b> we aim to solve include:
 
 1. To identify features influencing the pricing.
@@ -107,17 +111,17 @@ We decided to opt for RMSE as our metric of success because it is measured in th
 
 
 ## <b>Recommendations</b>
-We recommended that:
-1. There is need to do further exploration into other variables in order to better understand the determinants of house prices.
+We recommend that:
+1. There is a need to do further exploration into other features in order to better understand the determinants of house prices.
 
-2. The agency should consider re-purposing the old houses and targeting business owners rather than homeowners.
+2. The agency should consider re-purposing the old houses and targeting business owners rather than homeowners, this may also be achieved by market research.
 
-3. The agency should consider investing in properties with waterfronts as this could increase their profitability.
+3. The agency should consider investing in properties that can increase their profitability, such as properties that have a waterfront.
 
 
 ## <b> Next Steps </b>
-1. Additional cleaning and feature engineering can be performed to improve the data's quality because the dataset contains some missing values and inconsistencies. Missing data, for example, might be imputed using proper procedures, and new features can be generated from existing ones to provide more insights into the housing market.
+1. New features can be generated from the existing data to provide more insights into the housing market. For example: In-depth information about regions
 
-2. Conduct further exploration to visualize the location of the properties on a map. This will help us compare the affordability of properties per region. It will also help in determining the best regions to invest in.
+2. Visualise the properties on a map. This would enable our stakeholders to see the affordability of properties per region. Additionally, this would help to also determine the best regions to invest in.
 
-3. Retrieve more recent data that would allow us to make better models in order to predict prices based on the current market trends.
+3. Revise the models so that it reflects the current market trends so that this will allow for better accuracy in predicting the prices.
